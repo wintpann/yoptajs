@@ -30,4 +30,4 @@ node.on('error', (error) => {
 
 node.on('exit', () => {
   fs.unlinkSync(process.argv[2] + '.js');
-})
+});
